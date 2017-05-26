@@ -1,0 +1,270 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Lord Of The Rings - 15th Anniversary</title>
+    <link rel="stylesheet" href="styles/foundation.css">
+    <link rel="stylesheet" href="styles/app.css">
+    <link rel="shortcut icon" href="images/one_ring.ico" type="image/x-icon">
+	<link rel="icon" href="images/one_ring.ico" type="image/x-icon">
+  	<script src="js/TweenMax.min.js"></script>
+
+  </head>
+  <body>
+	  <h1 class="hide">The Lord Of The Rings</h1>
+	  
+	  <!--off-canvas content-->
+	  <div class="off-canvas position-top" id="offCanvas" data-off-canvas>
+	  	<nav id="mobileNav">
+		<h2 class="hide">Mobile Nav</h2>
+	  	<ul>
+			<li><a href="#home">Home</a></li>
+			<li><a href="#guide">Guide</a></li>
+			<li><a href="#story">Story</a></li>
+			<li><a href="#trailer">Trailer</a></li>
+			<li><a href="#gallery">Gallery</a></li>
+			<li><a href="#register">Register</a></li>
+		</ul>
+		</nav>
+		
+		<button class="close-button" aria-label="Close menu" type="button" data-close>
+  			<span aria-hidden="true">&times;</span>
+		</button>
+	  </div>
+	  <!--off-canvas content-->
+	  
+	  <header class="expanded row" id="mainHeader" data-sticky-container>
+	  
+	  	<div class="small-12 medium-12 large-12 columns" id="headerDiv" data-sticky data-options="marginTop: 0;">
+	  		<!--this is header logo-->
+			<a href="index.html"><img src="images/logo_hr.svg" alt="Logo" id="logo" class="small-6 medium-3 large-3 columns"></a>
+			<!--this is header logo-->
+			
+			<button class="menu-icon float-right hide-for-large" type="button" data-open="offCanvas" data-hide-for="large"></button>
+			
+			<!--this is main nav-->
+			<nav class="large-6 columns show-for-large" id="mainNav">
+			<h2 class="hide">Main Navigation</h2>
+			<ul data-magellan>
+				<li><a href="#register">Register</a></li>
+				<li><a href="#desktopGallery">Gallery</a></li>
+				<li><a href="#trailer">Trailer</a></li>
+				<li><a href="#story">Story</a></li>
+				<li><a href="#guide">Guide</a></li>
+				<li><a href="#home">Home</a></li>
+			</ul>
+			</nav>
+			<!--this is main nav-->
+		</div>
+	  
+	  </header>
+	  
+    <!--main content starts here-->
+    <!--home page-->
+    	<section id="home" data-interchange="[images/promo_image_small.jpg, small], [images/promo_image_medium.jpg, medium], [images/promo_image_large.jpg, large]" class="expanded row" data-magellan-target="home">
+			<h2 class="hide">Home</h2>
+				
+   				<div class="container row">
+    			<img src="images/logo_text.svg" alt="Logo Text" class="small-12 medium-8 large-8 medium-push-2 large-push-2 columns" id="logoText">
+    			
+    			<img src="images/15th_anniversary.png" alt="Anniversary" class="small-12 medium-10 large-10 medium-push-1 large-push-1 columns" id="anniversary">
+				
+				<div class="small-6 medium-4 large-4 columns small-pull-3 medium-pull-4 large-pull-4">
+					<h3 id="startButton">start</h3>
+					<a href="#story"><img src="images/one_ring.png" alt="One Ring" id="oneRing"></a>
+				</div>
+				</div>
+				
+		</section>
+		
+	<!--guide page-->
+		<section class="row" id="guide" data-magellan-target="guide">
+			<h2 class="hide">Guide</h2>
+			
+			<h3 class="small-12 medium-8 large-6 columns medium-push-2 large-push-3" id="guidePromoText">the adventure has began for 15 years. <br> keep the adventure to be continued...</h3>
+			
+			<hr>
+			
+			<p class="small-12 medium-8 large-6 columns medium-push-2 large-push-3" id="guideSubtitle">Follow us to see unseen scenes</p>
+			
+			<hr>
+			
+			<div class="small-12 medium-4 large-4 columns icons">
+				<a href="#trailerSecondV"><img src="images/lotr_castle.svg" alt="Castle"></a>
+				<h3>middle earth</h3>
+				<p class="hide-for-small-only">Click the icon to explore Middle Earth</p>
+			</div>
+			
+			<div class="small-12 medium-4 large-4 columns icons">
+				<a href="#story"><img src="images/lotr_helmet.svg" alt="Helmet"></a>
+				<h3>plot line</h3>
+				<p class="hide-for-small-only">Click the icon to read the plot line</p>
+			</div>
+			
+			<div class="small-12 medium-4 large-4 columns icons">
+				<a href="#trailer"><img src="images/lotr_sword_axe.svg" alt="Sword and Axe"></a>
+				<h3>trailers</h3>
+				<p class="hide-for-small-only">Click the icon to watch the trailers</p>
+			</div>
+	  	</section>
+	  	
+	<!--story page-->
+	  	<section class="expanded row" data-interchange="[images/sauron_eye_small.png, small], [images/sauron_eye_medium.png, medium], [images/sauron_eye_large.png, large]" id="story" data-magellan-target="story">
+			<h2 class="hide">Story</h2>
+			
+			<div class="container row">
+			<h3 class="small-12 medium-7 large-8 columns" id="storyTitle">The Road to Mordor</h3>
+			<p class="small-12 medium-7 medium-offset-1 end large-6 large-offset-6 large-pull-4 columns">When Gandalf discovers the Ring is in fact the One Ring of the Dark Lord Sauron, Frodo must make an epic quest to the Cracks of Doom in order to destroy it! However he does not go alone. He is joined by Gandalf, Legolas the elf, Gimli the Dwarf, Aragorn, Boromir and his three Hobbit friends Merry, Pippin and Samwise. Through mountains, snow, darkness, forests, rivers and plains, facing evil and danger at every corner the Fellowship of the Ring must go. Their quest to destroy the One Ring is the only hope for the end of the Dark Lords reign!</p>
+			
+			<img src="images/mordor_logo.png" alt="Mordor Logo" class="medium-4 medium-offset-1 end large-3 large-offset-9 large-pull-7 columns hide-for-small-only" id="mordorLogo">
+			
+			<h3 class="show-for-large large-3 large-push-8 columns" id="fellowshipsTitle">the Felloeships of the Ring</h3>
+			<img src="images/chracaters.png" alt="Characters" class="show-for-large large-7  large-pull-5 columns">
+			</div>
+			
+	  	</section>
+	  	
+	<!--mobile characters page-->
+	  	<section class="row" id="characters">
+			<h2 class="hide">Characters</h2>
+	  		<h3 class="hide-for-large small-12 medium-12 columns">the Felloeships of the Ring</h3>
+			<img src="images/chracaters.png" alt="Characters" class="hide-for-large small-12  medium-10 medium-pull-1 columns">
+	  	</section>
+	  	
+	<!--trailer page-->
+    	<section class="row" id="trailer" data-magellan-target="trailer">
+			<h2 class="small-12 medium-12 large-12 columns">Trailer</h2>
+			
+			<video class="small-12 medium-8 large-8 columns" id="trailerVideo" preload="auto" poster="images/argonath.jpg">
+				<source src="videos/trailer.mp4">
+				<source src="videos/trailer.ogv">
+				<source src="videos/trailer.webm">
+			</video>
+			
+			<p class="small-12 medium-4 large-3 large-push-1 columns" id="trailerFirstP">The nine fellowships of the ring are now on the road. They overcome lots of difficulties to desotry the evil ring.<br>
+			If your broswer does not support current video format, please choose another source down below.<br>
+			<img src="images/play.svg" alt="Control" width="50px" id="trailerPlay">
+			<span id="trailerOgg">Source1</span> <span id="trailerWebm">Source2</span>
+			</p>
+			
+			<video class="small-12 medium-8 medium-push-4 large-8 columns" id="trailerSecondV" preload="auto" poster="images/poster.jpg">
+				<source src="videos/teaser_trailer.mp4">
+				<source src="videos/teaser_trailer.ogv">
+				<source src="videos/teaser_trailer.webm">
+			</video>
+			
+			<p class="small-12 medium-4 medium-pull-8 large-3 large-pull-9 columns">The movie demonstrates some positivities such as courage, belief, and friendship. <br>If your broswer does not support current video format, please choose another source down below.<br>
+			<img src="images/play.svg" alt="Control" width="50px" id="teaserPlay">
+			<span id="teaserOgg">Source1</span> <span id="teaserWebm">Source2</span>
+			</p>
+			
+	  	</section>
+	  	
+	<!--gallery page mobile-->
+    	<section class="row hide-for-large ga" id="gallery">
+			<h2>Middle Earth</h2>
+			<!------------slider------------>
+			<div class="orbit hide-for-large" role="region" aria-label="Middle Earth Landscapes" data-orbit>
+				<ul class="orbit-container">
+				
+				<button class="orbit-previous"><span class="show-for-sr">Previous Slide</span> &#9664;&#xFE0E;</button>
+				<button class="orbit-next"><span class="show-for-sr">Next Slide</span> &#9654;&#xFE0E;</button>
+				
+					<li class="orbit-slide is-active">
+						<img class="orbit-image" src="images/shire.jpg" alt="Shire">
+					</li>
+					<li class="orbit-slide is-active">
+						<img class="orbit-image" src="images/rivendell.jpg" alt="Rivendell">
+					</li>
+					<li class="orbit-slide is-active">
+						<img class="orbit-image" src="images/elvendom.jpg" alt="Elvendom">
+					</li>
+					<li class="orbit-slide is-active">
+						<img class="orbit-image" src="images/argonath.jpg" alt="Argonath">
+					</li>
+					<li class="orbit-slide is-active">
+						<img class="orbit-image" src="images/mordor.jpg" alt="Mordor">
+					</li>
+				</ul>
+			</div>
+			<!------------slider------------>
+	  	</section>
+	  	
+	<!--gallery page desktop-->
+    	<section class="row show-for-large" id="desktopGallery" data-magellan-target="desktopGallery">
+    		<h2 class="hide">Middle Earth</h2>
+    		
+    		<div id="shire" class="large-1 large-offset-11 large-pull-7 columns"><a href="#" class="pic" data-offset="0"><img src="images/shire_s.jpg" alt="Shire"></a>
+			</div>
+			<div id="rivendell" class="large-1 large-offset-11 large-pull-6 columns"><a href="#" class="pic" data-offset="1"><img src="images/rivendell_s.jpg" alt="Rivendell"></a>
+			</div>
+			<div id="elvendom" class="large-1 large-offset-11 large-pull-5 columns"><a href="#" class="pic" data-offset="2"><img src="images/elvendom_s.jpg" alt="Elvendom"></a>
+			</div>
+			<div id="argonath" class="large-1 large-offset-11 large-pull-4 columns"><a href="#" class="pic" data-offset="3"><img src="images/argonath_s.jpg" alt="Argonath"></a>
+			</div>
+			<div id="mordor" class="large-1 large-offset-11 large-pull-4 columns"><a href="#" class="pic" data-offset="4"><img src="images/mordor_s.jpg" alt="Mordor"></a>
+			</div>
+   		
+   			<div id="lightbox">
+				<img src="images/shire.jpg" alt="Middle Earth Places" id="places">
+				<img src="images/close.svg" id="close" alt="Close Button">
+			</div>
+    		
+	  	</section>
+	  	
+	<!--register page-->
+    	<section class="row" id="register" data-magellan-target="register">
+			<h2 class="small-12 medium-12 large-3 large-offset-9 large-pull-9 columns">Register</h2>
+			
+			<p class="medium-12 large-7 large-push-1 columns end hide-for-small-only">Subscribe our newsletter to get the latest information of the re-released movie. We will also send out coupons about our brand new marchdise products. Please visit our online LOTR store at www.lotrstore.com</p>
+			
+			<form id="registerForm" class="small-12 medium-12 large-7 large-push-1 columns">
+               			<label for="name">hello my name is</label>
+                		<input type="text" required id="name" placeholder="Your Name" class="form">
+                		
+                		<label for="email">my email is</label>
+                		<input type="email" required id="email" placeholder="Your Email" class="form">
+               			
+                		<label for="comments">i would like to say</label>
+                		<textarea id="comments" required cols="50" rows="1" class="form" placeholder="Text Goes Here"></textarea>
+               		
+                		<input id="submit" type="submit" value="send">
+            </form>
+            
+            <div class="small-12 medium-12 large-3 columns" id="dvd">
+            	<img src="images/dvd.png" alt="DVD">
+				<h2>Available in store</h2>
+			</div>
+	  	</section>
+	  	
+	<!--footer page-->
+	  	<footer class="expanded row" id="footer">
+			<h2 class="hide">Main Footer</h2>
+	  		
+	  		<div class="container row">
+				<a href="#home" class="small-12 medium-12 large-12 columns"><img src="images/up.svg" alt="Go Top" width="60px" id="backToTop"></a>
+	  			
+	  			<img src="images/logo_vr.svg" alt="Logo" class="small-12 medium-12 large-12 columns" id="logo_vr">
+	  			
+	  			<div class="small-12 medium-12 large-12 columns" id="socialMedia">
+	  				<img src="images/facebook.svg" alt="Facebook" width="35px" id="fb">
+	  				<img src="images/twitter.svg" alt="Twitter" width="35px" id="tw">
+	  				<img src="images/instagram.svg" alt="Instagram" width="35px" id="ig">
+				</div>
+				
+				<p>© 2017 the Lord of the Rings</p>
+			</div>
+			
+	  	</footer>
+
+    <script src="js/effects.js"></script>
+    <script src="js/video_controls.js"></script>
+    <script src="js/lightbox_gallery.js"></script>
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

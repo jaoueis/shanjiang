@@ -1,0 +1,1109 @@
+/*utility class*/
+.boxHelper
+{
+	color: #fff;
+	background-color:#000;
+	text-align:center; 
+}
+
+/*fonts*/
+@font-face {
+    font-family: 'ringbearermedium';
+    src: url(../fonts/ringm___-webfont.woff2) format('woff2'),
+         url(../fonts/ringm___-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'timelessregular';
+    src: url(../fonts/timeless-webfont.woff2) format('woff2'),
+         url(../fonts/timeless-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body
+{
+	background-image: url(../images/naturalblack.png);
+	opacity: 0;
+}
+
+/*header*/
+header
+{
+	top: -65px;
+}
+
+#headerDiv
+{
+	height: 65px;
+	background-color: rgba(255, 255, 255, 0.6);
+}
+
+#logo
+{
+	width: 230px;
+	margin-top: 10px;
+}
+
+.menu-icon
+{
+	margin-top: 24px;
+	margin-right: 8px;
+}
+
+.menu-icon::after
+{
+	background-color: #dcc14d;
+	box-shadow: 0 7px 0 #dcc14d, 0 14px 0 #dcc14d;
+}
+
+.menu-icon:hover::after
+{
+	background-color: #333;
+	box-shadow: 0 7px 0 #333, 0 14px 0 #333;
+}
+
+#mobileNav ul
+{
+	text-align: center;
+	list-style-type: none;
+	margin: 0;
+}
+
+#mobileNav ul li:first-child
+{
+	margin-top: 30px;
+}
+
+#mobileNav ul li
+{
+	margin-top: 10px;
+}
+
+#mobileNav ul li a
+{
+	font-family: 'timelessregular', Times, Serif;
+	font-size: 1em;
+	color: #333;
+	outline: none;
+	border: 0;
+}
+
+#mobileNav ul li:hover
+{
+	background-color: #dcc14d;
+}
+
+.close-button
+{
+	color: #dcc14d;
+	margin-top: -10px;
+}
+
+.close-button:hover
+{
+	color: #333;
+}
+
+#mainNav ul
+{
+	list-style-type: none;
+}
+
+#mainNav ul li
+{
+	display: inline;
+	float: right;
+	margin-left: 22px;
+	margin-top: 20px;
+}
+
+#mainNav ul li a
+{
+	font-family: 'timelessregular', Times, Serif;
+	font-size: 1.125em;
+	color: #000;
+	transition: all .3s linear;
+}
+
+#mainNav ul li a:hover
+{
+	color: #dcc14d;
+}
+
+/*main contents start here*/
+/*----------------------------------*/
+/*home page*/
+#home
+{
+	height: 200px;
+	background-position: top, center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+
+#logoText
+{
+	margin-top: 220px;
+}
+
+#home h3
+{
+	font-family: 'ringbearermedium', Arial, Sans-serif;
+	font-size: 1.25em;
+	color: #fff;
+}
+
+#anniversary
+{
+	margin-top: 30px;
+}
+
+#startButton
+{
+	margin-top: 90px;
+}
+
+#oneRing
+{
+	width: 100px;
+	margin-top: -78px;
+}
+
+#oneRing:hover
+{
+	animation: spin 1s linear;
+}
+
+@keyframes spin
+{
+	0%
+	{
+		transform: rotate(0deg);
+	}
+	100%
+	{
+		transform: rotate(180deg);
+	}
+}
+/*home page*/
+/*----------------------------------*/
+
+/*----------------------------------*/
+/*guide page*/
+#guide
+{
+	text-align: center;
+	margin-top: 30px;
+}
+
+#guide h3
+{
+	font-family: 'ringbearermedium', Arial, Sans-serif;
+	font-size: 1.25em;
+	color: #fff;
+}
+
+#guidePromoText
+{
+	line-height: 30px;
+	padding-top: 50px;
+	padding-bottom: 30px;
+	margin-bottom: 0;
+}
+
+#guide p
+{
+	font-family: 'timelessregular', Arial, Sans-serif;
+	color: #fff;
+}
+
+#guideSubtitle
+{
+	font-size: 1.25em;
+	margin-bottom: 1.25em;
+}
+
+hr
+{
+	width: 195px;
+	border: 2.5px solid #dcc14d;
+}
+
+.icons
+{
+	margin-top: 30px;
+}
+
+.icons img
+{
+	width: 40%;
+}
+
+.icons h3
+{
+	margin-top: 10px;
+}
+/*guide page*/
+/*----------------------------------*/
+
+/*----------------------------------*/
+/*story page*/
+#story
+{
+	height: 480px;
+	background-position: top, center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	margin-top: 50px;
+}
+
+#story h3
+{
+	font-family: 'ringbearermedium', Arial, Sans-serif;
+	font-size: 1.5em;
+	color: #dcc14d;
+}
+
+#storyTitle
+{
+	margin-top: 10px;
+}
+
+#story p
+{
+	font-family: 'timelessregular', Arial, Sans-serif;
+	font-size: 1em;
+	color: #fff;
+	text-align: justify;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-bottom: 20px;
+}
+
+#story p:first-letter
+{
+	font-size: 1.75em;
+}
+/*story page*/
+/*----------------------------------*/
+
+/*----------------------------------*/
+/*characters page*/
+#characters
+{
+	text-align: center;
+	margin-top: 50px;
+}
+
+#characters h3
+{
+	font-family: 'ringbearermedium', Arial, Sans-serif;
+	font-size: 1.5em;
+	color: #dcc14d;
+	margin-bottom: 50px;
+}
+/*characters page*/
+/*----------------------------------*/
+
+/*----------------------------------*/
+/*trailer page*/
+#trailer
+{
+	text-align: center;
+	margin-top: 50px;
+}
+
+#trailer h2
+{
+	font-family: 'ringbearermedium', Arial, Sans-serif;
+	font-size: 1.5em;
+	color: #dcc14d;
+	margin-bottom: 50px;
+}
+
+#trailer p
+{
+	font-family: 'timelessregular', Arial, Sans-serif;
+	font-size: 1em;
+	color: #fff;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: justify;
+}
+
+#trailer p img
+{
+	cursor: pointer;
+	margin-right: 10px;
+}
+
+#trailer span
+{
+	color: #ddc14d;
+	margin-right: 8px;
+	cursor: pointer;
+}
+
+#trailer video
+{
+	border: 5px solid #dcc14d;
+	margin-bottom: 30px;
+	padding: 0;
+}
+
+/*trailer page*/
+/*----------------------------------*/
+
+/*----------------------------------*/
+/*gallery page*/
+#gallery
+{
+	text-align: center;
+	margin-top: 50px;
+}
+
+#gallery h2
+{
+	font-family: 'ringbearermedium', Arial, Sans-serif;
+	font-size: 1.5em;
+	color: #dcc14d;
+	margin-bottom: 50px;
+}
+
+#gallery ul
+{
+	border: 5px solid #dcc14d;
+}
+
+/*gallery page*/
+/*----------------------------------*/
+
+/*----------------------------------*/
+/*register page*/
+#register
+{
+	text-align: center;
+	margin-top: 50px;
+}
+
+#register h2
+{
+	font-family: 'ringbearermedium', Arial, Sans-serif;
+	font-size: 1.5em;
+	color: #dcc14d;
+	margin-bottom: 20px;
+}
+
+#register p
+{
+	font-family: 'timelessregular', Arial, Sans-serif;
+	font-size: 1em;
+	color: #fff;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: justify;
+}
+
+label
+{
+	color: #dcc14d;
+	font-family: 'ringbearermedium', Arial, Sans-serif;
+	font-size: 1em;
+}
+
+.form
+{
+	font-family: 'timelessregular', Arial, Sans-serif;
+	font-size: 1em;
+	background-image: url(../images/naturalblack.png);
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 5px solid #dcc14d;
+}
+
+#submit
+{
+	font-family: 'ringbearermedium', Arial, Sans-serif;
+	font-size: 1.25em;
+	color: #dcc14d;
+	background-image: url(../images/naturalblack.png);
+	border: none;
+	transition: all .3s linear;
+	cursor: pointer;
+}
+
+#submit:hover
+{
+	color: #fff;
+}
+
+#dvd
+{
+	margin-top: 30px;
+}
+
+#dvd img
+{
+	margin-bottom: 20px;
+}
+/*register page*/
+/*----------------------------------*/
+
+/*----------------------------------*/
+/*footer*/
+#footer
+{
+	background-color: rgba(255, 255, 255, 1);
+	text-align: center;
+}
+
+#footer p
+{
+	font-family: 'timelessregular', Arial, Sans-serif;
+	font-size: 1em;
+	padding-bottom: 30px;
+}
+
+#logo_vr
+{
+	width: 200px;
+	float: none;
+}
+
+#socialMedia img
+{
+	border-radius: 50%;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 20px;
+	margin-bottom: 35px;
+	transition: opacity .3s linear;
+	cursor: pointer;
+}
+
+#fb:hover
+{
+	opacity: .6;
+}
+
+#tw:hover
+{
+	opacity: .6;
+}
+
+#ig:hover
+{
+	opacity: .6;
+}
+
+#backToTop
+{
+	transition: opacity .3s ease;
+	opacity: 1;
+	margin-top: 30px;
+}
+
+#backToTop:hover
+{
+	opacity: .6;
+}
+/*footer*/
+/*----------------------------------*/
+
+@media screen and (max-width: 19.9375em) {
+	body
+	{
+		width: 319px; /*319px is the breakpoint that the site stops shrinking*/
+	}
+}
+
+@media screen and (min-width: 25.625em) {/*410/16*/
+	#home
+	{
+		height: 240px;
+	}
+	
+	#logoText
+	{
+		margin-top: 260px;
+	}
+	
+	#story
+	{
+		height: 420px;
+	}
+	
+	#story p
+	{
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+}
+
+@media screen and (min-width: 31.25em) {/*500/16*/
+	#home
+	{
+		height: 280px;
+	}
+	
+	#logoText
+	{
+		margin-top: 300px;
+	}
+	
+	.icons img
+	{
+		width: 30%;
+	}
+	
+	#story
+	{
+		height: 360px;
+	}
+}
+
+@media screen and (min-width: 37.5em) {/*600/16*/
+	#home
+	{
+		height: 320px;
+	}
+	
+	#logoText
+	{
+		margin-top: 340px;
+	}
+}
+
+@media screen and (min-width: 40em) {/*640/16*/
+	#home
+	{
+		height:  400px;
+	}
+	
+	#logoText
+	{
+		margin-top: 70px;
+	}
+	
+	#anniversary
+	{
+		margin-top: 40px;
+	}
+	
+	#startButton
+	{
+		margin-top: 60px;
+	}
+
+	#oneRing
+	{	
+		width: 100px;
+		margin-top: -78px;
+	}
+	
+	.icons img
+	{
+		width: 50%;
+	}
+	
+	.icons p
+	{
+		font-size: 1em;
+		text-align: center;
+	}
+	
+	#story
+	{
+		height: 800px;
+		text-align: left;
+	}
+	
+	#story h3
+	{
+		font-size: 2em;
+	}
+	
+	#storyTitle
+	{
+		margin-top: 50px;
+		margin-left: 30px;	
+	}
+	
+	#story p
+	{
+		font-size: 1em;
+		padding-top: 50px;
+		padding-right: 50px;
+		line-height: 2em;
+	}
+	
+	#mordorLogo
+	{
+		padding-top: 50px;
+		padding-left: 40px;
+	}
+	
+	#characters h3
+	{
+		font-size: 2em;
+	}
+	
+	#trailer
+	{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	
+	#trailer h2
+	{
+		font-size: 2em;
+	}
+	
+	#trailer p
+	{
+		padding: 0;
+	}
+	
+	#trailerFirstP
+	{
+		margin-left: 35px;
+	}
+	
+	#trailer video
+	{
+		width: 60%;
+		margin-bottom: 80px;
+	}
+	
+	#trailerSecondV
+	{
+		margin-left: 35px;
+	}
+	
+	#gallery
+	{
+		margin-top: 0;
+	}
+	
+	#gallery h2
+	{
+		font-size: 2em;
+	}
+	
+	#register h2
+	{
+		font-size: 2em;
+	}
+	
+	label
+	{
+		font-size: 1.25em;
+	}
+	
+	#submit
+	{
+		font-size: 1.5em;
+		padding-left: 0;
+	}
+	
+	#dvd
+	{
+		margin-top: 50px;
+	}
+	
+}
+
+@media screen and (min-width: 45em) {/*720/16*/
+	#logoText
+	{
+		margin-top: 60px;
+	}
+	
+	#startButton
+	{
+		margin-top: 55px;
+	}
+}
+
+@media screen and (min-width: 48em) {/*768/16*/
+	#home
+	{
+		height: 420px;
+	}
+	
+	#logoText
+	{
+		margin-top: 50px;
+	}
+	
+	#startButton
+	{
+		margin-top: 50px;
+	}
+	
+	#story
+	{
+		height: 750px;
+	}
+	
+	#trailerFirstP
+	{
+		margin-left: 45px;
+	}
+	
+	#trailerSecondV
+	{
+		margin-left: 45px;
+	}
+}
+
+@media screen and (min-width: 56.25em) {/*900/16*/
+	#home
+	{
+		height: 450px;
+	}
+	
+	#guide h3
+	{
+		font-size: 1.5em;
+	}
+	
+	#guideSubtitle
+	{
+		font-size: 1.5em;
+		margin-bottom: 1em;
+	}
+	
+	.icons p
+	{
+		font-size: 1.25em;
+	}
+	
+	#story
+	{
+		height: 800px;
+	}
+	
+	#story h3
+	{
+		font-size: 2.25em;
+	}
+	
+	#storyTitle
+	{
+		margin-top: 30px;
+		margin-left: 50px;
+	}
+	
+	#story p
+	{
+		font-size: 1.25em;
+		padding-top: 40px;
+	}
+	
+	#mordorLogo
+	{
+		padding-top: 40px;
+	}
+	
+	#characters h3
+	{
+		font-size: 2.25em;
+	}
+	
+	#trailer h2
+	{
+		font-size: 2.25em;
+	}
+	
+	#trailer p
+	{
+		font-size: 1.25em;
+	}
+	
+	#gallery h2
+	{
+		font-size: 2.25em;
+	}
+	
+	#register h2
+	{
+		font-size: 2.25em;
+	}
+	
+	#register p
+	{
+		font-size: 1.25em;
+	}
+	
+	label
+	{
+		font-size: 1.5em;
+	}
+	
+	#submit
+	{
+		font-size: 1.75em;
+	}
+}
+
+@media screen and (min-width: 64em) {/*1024/16*/
+	#home
+	{
+		height: 640px;
+		background-attachment: fixed;
+	}
+	
+	#logoText
+	{
+		margin-top: 100px;
+	}
+	
+	#anniversary
+	{
+		margin-top: 60px;
+	}
+	
+	#startButton
+	{
+		margin-top: 140px;
+	}
+	
+	#guide
+	{
+		transition: opacity 2.5s ease;
+		opacity: 0;
+	}
+	
+	#guidePromoText
+	{
+		margin-bottom: 50px;
+	}
+	
+	.icons
+	{
+		margin-top: 80px;
+	}
+	
+	.icons img
+	{
+		width: 40%;
+	}
+	
+	#story
+	{
+		height: 1280px;
+		background-attachment: fixed;
+	}
+	
+	#story p
+	{
+		text-align: left;
+		padding-left: 0;
+	}
+	
+	#mordorLogo
+	{
+		padding-left: 0;
+	}
+	
+	#story img:last-child
+	{
+		padding-left: 65px;
+		margin-top: 150px;
+	}
+	
+	#fellowshipsTitle
+	{
+
+		padding: 0px 0px 0px 20px;
+		margin-top: 320px;
+	}
+	
+	#trailerFirstP
+	{
+		margin-left: 60px;
+	}
+	
+	#trailerSecondV
+	{
+		margin-left: 60px;
+	}
+	
+	/*----------------------------------*/
+	/*desktop gallery*/
+	#desktopGallery
+	{
+		background-image: url(../images/map.jpg);
+		height: 576px;
+		background-position: center, top;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	
+	
+	.pic img
+	{
+		position: relative;
+		width: 90px;
+		border: solid 5px white;
+		transition: border .3s linear;
+	}
+	
+	.pic img:hover
+	{
+		border: solid 5px #dcc14d;
+	}
+	
+	#shire
+	{
+		margin-top: 130px;
+	}
+	
+	#rivendell
+	{
+		padding-left: 1.875rem;
+		padding-right: 0;
+	}
+	
+	#argonath
+	{
+		margin-top: 20px;
+		padding-left: 0;
+		padding-right: 1.875rem;
+	}
+	
+	#mordor
+	{
+		margin-top: 20px;
+		padding-left: 0;
+		padding-right: 1.875rem;
+	}
+	
+	#lightbox
+	{
+		display: none;
+		position: fixed;
+		z-index: 999;
+		width: 100%;
+		height: 100%;
+		text-align: center;
+		top: 0;
+		left: 0;
+		background: rgba(0, 0, 0, 0.8);
+	}
+
+	#places
+	{
+		width: 960px;
+		margin-top: 65px;
+		border: solid 5px #dcc14d;
+	}
+
+	#close
+	{
+		position: relative;
+		width: 50px;
+		top: -280px;
+		left: 10px;
+		cursor: pointer;
+		opacity: .8;
+	}
+
+	#close:hover
+	{
+		animation: spin .3s linear;
+	}
+	
+	@keyframes spin
+	{
+	0%
+	{
+		transform: rotate(0deg);
+	}
+	100%
+	{
+		transform: rotate(180deg);
+	}
+	}
+	/*desktop gallery*/
+	/*----------------------------------*/
+	
+	#register
+	{
+		text-align: left;
+	}
+	
+	form
+	{
+		margin-bottom: 30px;
+	}
+	
+	#dvd
+	{
+		margin-top: 0;
+		text-align: center;
+		padding-right: 30px;
+	}
+	
+	#dvd h2
+	{
+		font-size: 1.5em;
+		margin-top: 20px;
+	}
+}
+
+@media screen and (min-width: 80em) {/*1280/16*/
+	.container
+	{
+		width: 1024px;
+	}
+	
+	#startButton
+	{
+		margin-top: 120px;
+	}
+	
+	#trailer p
+	{
+		border-top: 5px solid #ddc14d;
+		border-bottom: 5px solid #ddc14d;
+		border-left: none;
+		border-right: none;
+	}
+	
+	#trailerFirstP
+	{
+		padding-left: 30px;
+	}
+	
+	#shire
+	{
+		margin-top: 110px;
+	}
+}
+
+@media screen and (min-width: 120em) {/*1920/16*/
+	#home
+	{
+		height: 920px;
+	}
+	
+	#logoText
+	{
+		margin-top: 200px;
+	}
+	
+	#startButton
+	{
+		margin-top: 200px;
+	}
+}
